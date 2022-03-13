@@ -1,0 +1,10 @@
+step 1 : start the program.
+step 2 : initialize the mathemtical operator , digits and decimal button , display screen , calculate.
+step 3 : Create the table element and create rows and columns.
+step 4 : Using Class Attribute in .calculator , .display-box , .button.
+step 5 : Display the screen,button and calculator.
+Step 6 : Add Function to ClearScreen() , display() and calculate().
+step 7 : ClearScreen() function to get the id of the result value to assigning it empty.
+step 8 : Display() function to get the id of the result to given value.
+step 9 : calculate() function access to the id of result and check the value again assign to the result.
+step 10 : eval() function is used to the values pass a parameters, return the values by mathemtical expression.

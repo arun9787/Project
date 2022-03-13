@@ -1,46 +1,34 @@
-.container {
-    max-width: 400px;
-    margin: 10vh auto 0 auto;
-    box-shadow: 0px 0px 43px 17px rgb(228, 223, 223);
-}
-#display {
-    text-align: right;
-    height: 70px;
-    line-height: 70px;
-    padding: 16px 8px;
-    font-size: 25px;
-}
-.buttons {
-    display: grid;
-    border-bottom: 1px solid #999;
-    border-left: 1px solidrgb(5, 3, 3);
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-
-.buttons > div {
-    border-top: 1px solid rgb(10, 6, 3);
-    border-right: 1px solid#999;
-}
-.button {
-    border: 0.5px solid rgb(9, 11, 12);
-    line-height: 100px;
-    text-align: center;
-    font-size: 25px;
-    cursor: pointer;
-}
-
-#equal {
-    background-color: rgb(13, 211, 211);
-    color: rgb(14, 7, 7);
-}
-
-.button:hover {
-    background-color: #333230;
-    color: white;
-    transition: 0.5s ease-in-out;
-}
-
-#C.button:hover{
-    background-color: red;
-    color: black;
-}
+.calculator {
+  padding: 10px;
+  border-radius: 1em;
+  height: 380px;
+  width: 400px;
+  margin: auto;
+  background-color: #191b28;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+ }
+ .display-box {
+  font-family: 'Orbitron', sans-serif;
+  background-color: #dcdbe1;
+  border: solid black 0.5px;
+  color: black;
+  border-radius: 5px;
+  width: 100%;
+  height: 65%;
+ }
+ .button {
+  font-family: 'Orbitron', sans-serif;
+  background-color: #64278f;
+  color: white;
+  border: solid black 0.5px;
+  width: 100%;
+  border-radius: 5px;
+  height: 70%;
+  outline: none;
+ }
+ .button:active {
+  background: #e5e5e5;
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+  -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+  box-shadow: inset 0px 0px 5px #c1c1c1;
+ }
